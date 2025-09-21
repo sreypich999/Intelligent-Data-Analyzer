@@ -215,50 +215,6 @@ chatbot.V1/
 streamlit run streamlit_app.py --server.headless true --server.port 8501
 ```
 
-### Adding New Features
-1. Extend the RAG pipeline with new tools in `utils/rag_pipeline.py`
-2. Add new visualization types in `utils/plot_generator.py`
-3. Implement new data processing functions in `utils/data_loader.py`
-
-### Testing
-- Upload sample datasets to test functionality
-- Test various query types and edge cases
-- Verify report generation and download features
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/new-feature`)
-3. Commit your changes (`git commit -am 'Add new feature'`)
-4. Push to the branch (`git push origin feature/new-feature`)
-5. Create a Pull Request
-
-## 📝 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🆘 Troubleshooting
-
-### Common Issues
-- **API Key Errors**: Ensure `GOOGLE_API_KEY` is correctly set in `.env`
-- **File Upload Issues**: Check file format (CSV/Excel only) and file size
-- **Visualization Errors**: Ensure Plotly and related libraries are installed
-- **Memory Issues**: Large datasets may require more RAM
-
-### Debug Mode
-Enable debug mode in the sidebar to see additional information about:
-- Current dataset status
-- Plot generation details
-- API response information
-
-## 📈 Future Enhancements
-
-- Support for additional file formats (JSON, Parquet, etc.)
-- Advanced ML model integration
-- Real-time data streaming
-- Multi-user collaboration features
-- API endpoints for external integrations
-- Custom visualization templates
 
 ## 📞 Support
 
@@ -270,3 +226,4 @@ For questions, issues, or feature requests:
 ---
 
 **Note**: This application requires a valid Google Gemini API key for full functionality. Interactive visualizations are displayed directly in the chat interface, while PDF and DOCX reports are available for download.
+
