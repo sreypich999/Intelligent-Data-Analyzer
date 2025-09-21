@@ -2,6 +2,12 @@
 
 A powerful, AI-powered data analysis application built with Streamlit that enables users to upload CSV/Excel files and interact with their data through natural language queries. The application leverages Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG) to provide intelligent insights, generate visualizations, and create comprehensive reports.
 
+## 📸 Screenshots
+
+![Intelligent Data Analyzer Interface](https://github.com/sreypich999/Intelligent-Data-Analyzer/blob/main/photo_2025-09-21_23-25-51.jpg)
+
+*Main interface showing the chat-based data analysis with interactive visualizations*
+
 ## 🌟 Features
 
 ### Core Functionality
@@ -219,6 +225,17 @@ streamlit run streamlit_app.py --server.headless true --server.port 8501
 - Test various query types and edge cases
 - Verify report generation and download features
 
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/new-feature`)
+3. Commit your changes (`git commit -am 'Add new feature'`)
+4. Push to the branch (`git push origin feature/new-feature`)
+5. Create a Pull Request
+
+## 📝 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## 🆘 Troubleshooting
 
@@ -251,6 +268,5 @@ For questions, issues, or feature requests:
 - Create a new issue with detailed information
 
 ---
-
 
 **Note**: This application requires a valid Google Gemini API key for full functionality. Interactive visualizations are displayed directly in the chat interface, while PDF and DOCX reports are available for download.
