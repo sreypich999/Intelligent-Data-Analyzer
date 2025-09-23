@@ -46,7 +46,7 @@ A powerful, AI-powered data analysis application built with Streamlit that enabl
 
 1. **Clone the repository** (if applicable) or navigate to the project directory:
    ```bash
-   cd chatbot.V1
+    cd Intelligent-Data-Analyzer
    ```
 
 2. **Install dependencies**:
@@ -226,4 +226,5 @@ For questions, issues, or feature requests:
 ---
 
 **Note**: This application requires a valid Google Gemini API key for full functionality. Interactive visualizations are displayed directly in the chat interface, while PDF and DOCX reports are available for download.
+
 
